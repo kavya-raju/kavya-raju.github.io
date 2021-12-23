@@ -2,6 +2,7 @@
 date: "2018-01-01"
 title: "Software Engineer Co-op"
 company: "PayPal Inc."
+companyTitle: "PayPal"
 location: "Newton, MA"
 range: "January - August 2018"
 url: "https://www.paypal.com/us/home"

@@ -2,6 +2,7 @@
 date: "2019-07-01"
 title: "Senior Software Engineer II"
 company: "Braviant Holdings"
+companyTitle: "Braviant"
 location: "Chicago, IL"
 range: "July 2019 - Present"
 url: "https://www.braviantholdings.com/"

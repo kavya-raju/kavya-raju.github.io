@@ -5,7 +5,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledContactSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto 100px;
 
   @media (max-width: 768px) {

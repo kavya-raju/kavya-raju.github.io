@@ -2,6 +2,7 @@
 date: "2014-12-01"
 title: "Senior Software Engineer"
 company: "Celstream Systems Pvt Ltd"
+companyTitle: "Celstream"
 location: "Bengaluru, India"
 range: "December 2014 - June 2016"
 url: "https://www.celstream.com/"

@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
 
   .inner {
     display: flex;
@@ -155,6 +155,10 @@ const StyledTabPanel = styled.div`
     font-weight: 500;
     line-height: 1.3;
 
+    .companyTitle {
+      color: var(--green);
+    }
+
     .company {
       color: var(--green);
     }
@@ -179,6 +183,7 @@ const Jobs = () => {
           node {
             frontmatter {
               title
+              companyTitle
               company
               location
               range
@@ -258,7 +263,7 @@ const Jobs = () => {
         >
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
+              const { companyTitle } = node.frontmatter;
               return (
                 <StyledTabButton
                   key={i}
@@ -271,7 +276,7 @@ const Jobs = () => {
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}
                 >
-                  <span>{company}</span>
+                  <span>{companyTitle}</span>
                 </StyledTabButton>
               );
             })}
