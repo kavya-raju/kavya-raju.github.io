@@ -5,7 +5,8 @@ module.exports = {
     title: 'Kavya Vasudevaraju',
     description: 'Senior Software Engineer at a FinTech.',
     siteUrl: 'https://kavyavasudevaraju.com', // No trailing slash allowed!
-    image: '/me.jpg', // Path to your image you placed in the 'static' folder
+    image: '/me.jpg', // Path to your image you placed in the 'static' folder,
+    twitterUsername: '@kavyav_raju',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,20 +41,6 @@ module.exports = {
       options: {
         name: 'content',
         path: `${__dirname}/content/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/content/posts`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/content/projects`,
       },
     },
     {
