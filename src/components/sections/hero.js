@@ -60,25 +60,13 @@ const Hero = () => {
 
   const one = <h1>Hello!</h1>;
   const two = <h2 className="big-heading">I'm Kavya Vasudevaraju.</h2>;
-  const three = <h3 className="big-heading">Software Engineer.</h3>;
-  const four = (
-    <>
-      <p>
-        I'm a Java developer passionate about developing systems at scale. I
-        currently work as a Senior Software Engineer at{' '}
-        <a
-          href="https://www.braviantholdings.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braviant Holdings
-        </a>
-        .
-      </p>
-    </>
+  const three = (
+    <h3 className="small-heading">
+      A Java developer passionate about developing systems at scale.
+    </h3>
   );
 
-  const items = [one, two, three, four];
+  const items = [one, two, three];
 
   return (
     <StyledHeroSection>

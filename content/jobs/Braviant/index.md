@@ -1,16 +1,10 @@
 ---
-date: "1"
+date: "2019-07-01"
 title: "Senior Software Engineer II"
 company: "Braviant Holdings"
+location: "Chicago, IL"
 range: "July 2019 - Present"
-url: "https://www.braviantholdings.com//"
-tech:
-  - Java
-  - Sprint Boot
-  - AWS Cloudwatch
-  - AWS Simple Queue Service
-  - AWS Codebuild
-  - AWS S3
+url: "https://www.braviantholdings.com/"
 ---
 
 - Implemented self-service features to allow customers to cancel scheduled payments, and manage bank account information which reduced customer support call turnaround time by about 20 hours/week.

@@ -1,12 +1,10 @@
 ---
-date: "2"
+date: "2018-01-01"
 title: "Software Engineer Co-op"
 company: "PayPal Inc."
-range: "Jan - Aug 2018"
+location: "Newton, MA"
+range: "January - August 2018"
 url: "https://www.paypal.com/us/home"
-tech:
-  - Java
-  - Cucumber testing framework
 ---
 
 - Contributed to developing a feature for Risk Management Engine, to monitor and log suspicious user activities; in a Serverless architecture using Amazon DynamoDB.
